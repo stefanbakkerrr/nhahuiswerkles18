@@ -1,0 +1,317 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+
+.header{
+    width:100%;
+    height:100vh;
+    background-image: url(img/sneek.jpg);
+    background-color:antiquewhite;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content: center;
+}
+
+.city{
+    width:100%;
+    height:100vh;
+    background-color:#000;
+    opacity:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.city h1{
+    color:#F6995C;
+    font-size:5em;
+    text-align:center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.3em;
+}
+
+.center{
+    width:100%;
+    height:100vh;
+    background-color:aliceblue;
+    display:flex;
+    justify-content: space-between;
+}
+/* start of left side center */
+.box1{
+    width:35%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+}
+
+.colum1{
+    width:50%;
+    height:100vh;
+    background-color:#000;
+    display:flex;
+    align-items: center;
+}
+
+.colum1 ul{
+    width:100%;
+    height:auto;
+    padding:0px;
+}
+
+.colum1 ul li{
+    width:100%;
+    height:50px;
+    color:#000;
+    background-color:#FFD966;
+    margin: 30px 0px;
+    text-align:center;
+    list-style:none;
+}
+
+.colum2{
+    width:50%;
+    height:100vh;
+    background-color:#FFD966;
+    display:flex;
+    align-items: center;
+}
+
+.colum2 ul{
+    width:100%;
+    height:auto;
+    padding:0px;
+}
+
+.colum2 ul li{
+    width:100%;
+    height:50px;
+    color:#FFD966;
+    background-color:#000;
+    margin: 30px 0px;
+    text-align:center;
+    list-style:none;
+}
+/* end of left side center */
+/* start of right side center */
+.box2{
+    width:65%;
+    height:100vh;
+    background-color:#000;
+}
+
+.container-rbox1{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+}
+.rbox1{
+    width:33%;
+    height:25vh;
+    background-color:#000;
+}
+
+.rbox2{
+    width:33%;
+    height:25vh;
+    background-color:#FFD966;
+}
+
+.rbox3{
+    width:33%;
+    height:25vh;
+    background-color:#000;
+}
+
+.container-rbox2{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+}
+
+.rbox4{
+    width:33%;
+    height:50vh;
+    background-color:#FFD966;
+    display: flex;
+    flex-direction: row;
+}
+
+.rbox5{
+    width:33%;
+    height:50vh;
+    background-color:#000;
+}
+
+.rbox6{
+    width:33%;
+    height:50vh;
+    background-color:#FFD966;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-rbox3{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+}
+
+.rbox7{
+    width:33%;
+    height:25vh;
+    background-color:#000;
+}
+
+.rbox8{
+    width:33%;
+    height:25vh;
+    background-color:#FFD966;
+}
+
+.rbox9{
+    width:33%;
+    height:25vh;
+    background-color:#000;
+}
+
+.sneekweek{
+    width:60%;
+    height:auto;
+
+}
+
+.sneekweek h3{
+    text-align:center;
+    margin:0px;
+}
+
+.sneekweek p {
+    font-size:85%;
+    margin-left:4px;
+    font-family: "Roboto", sans-serif;
+}
+
+.sneekweekimg{
+    width:40%;
+    height:auto;
+    
+}
+
+.sneekweekimg img{
+    width:100%;
+}
+
+.Waterpoort{
+    width:60%;
+    height:auto;
+}
+
+.Waterpoort h3{
+    text-align:center;
+    margin:0px;
+}
+
+.Waterpoort p {
+    font-size:85%;
+    margin-left:4px;
+    font-family: "Roboto", sans-serif;
+}
+
+.Waterpoortimg{
+    width:40%;
+    height:auto;
+}
+
+.Waterpoortimg img{
+    width:100%;
+}
+
+
+/* end of right side center */
+
+.footer{
+    width:100%;
+    height:10vh;
+    background-color:antiquewhite;
+
+}
+
+
+
+
+/* start of responsive */
+
+/* kleinste scherm */
+@media only screen and (max-width: 600px){
+    .center{
+        flex-direction: column;
+        height:auto;
+    }
+
+    .box1{
+        width:100%;
+    }
+    .box2{
+        width:100%;
+    }
+
+    .sneekweek h3{
+        font-size:0.8em;
+    }
+
+    .Waterpoort h3{
+        font-size:0.8em;
+    }
+
+    .sneekweek p {
+        font-size:50%;
+    }
+
+    .Waterpoort p {
+        font-size:50%;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .center{
+        flex-direction: column;
+        height:auto;
+    }
+
+    .box1{
+        width:100%;
+    }
+    .box2{
+        width:100%;
+    }
+
+    .sneekweek h3{
+        font-size:0.8em;
+    }
+
+    .Waterpoort h3{
+        font-size:0.8em;
+    }
+
+    .sneekweek p {
+        font-size:50%;
+    }
+
+    .Waterpoort p {
+        font-size:50%;
+    }
+
+
+
+}
